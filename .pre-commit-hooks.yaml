@@ -2,8 +2,7 @@
 - id: harper-cli
   name: harper-cli
   description: This hook runs the harper-cli grammar checker against files
-  entry: harper/harper-cli Lint
+  entry: harper-cli Lint
   language: rust
   pass_filenames: True
   types: [text]
-  additional_dependencies: ["--locked", ""]
