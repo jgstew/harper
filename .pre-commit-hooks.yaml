@@ -6,3 +6,4 @@
   language: rust
   pass_filenames: True
   types: [text]
+  additional_dependencies: ["--locked", ""]
